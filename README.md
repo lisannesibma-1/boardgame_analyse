@@ -16,7 +16,7 @@ Het script filtert de dataset op:
 ## 📊 Resultaat & Visualisatie
 Na het toepassen van de filters bleven er exact 4 spellen over die aan alle strenge eisen voldoen. Om de keuze makkelijker te maken, genereert het script automatisch een horizontale staafdiagram via `matplotlib`. 
 
-De X-as is specifiek ingezoomd op het bereik `(6, 7)` om de onderlinge kwaliteitsverschillen tussen de top-opties direct zichtbaar te maken.
+De X-as is specifiek ingezoomd op het bereik `(6, 7)` om de onderlinge kwaliteitsverschillen tussen de top-opties direct zichtbaar te maken. Het resultaat is te zien in 'Top 4 bordspellen voorwaarden.png'.
 
 **boardgame_analysis2.py**
 Een Python data-analyse project waarin wordt onderzocht hoe de waardering van bordspellen zich door de jaren heen heeft ontwikkeld. Maakt de bordspellenwereld een kwaliteitsspurt door, of worden we milder met cijfers uitdelen? 
@@ -34,7 +34,7 @@ Dit project laat zien hoe je grote hoeveelheden data efficiënt kunt aggregeren 
 * **Tijdreeks Visualisatie:** Met Matplotlib is een vloeiende lijngrafiek (`plt.plot`) gebouwd met datamarkers, waarbij de index (jaren) op de X-as staat en de gemiddelde rating op de Y-as.
 
 ## 📊 Resultaat
-De resulterende grafiek laat een duidelijke, stijgende trend zien. Spellen uit de jaren '90 scoren gemiddeld aanzienlijk lager dan spellen uit de jaren '10. Dit duidt op zowel een professionalisering van de bordspelindustrie als een milde vorm van 'rating-inflatie' binnen de community.
+De resulterende grafiek laat een duidelijke, stijgende trend zien. Spellen uit de jaren '90 scoren gemiddeld aanzienlijk lager dan spellen uit de jaren '10. Dit duidt op zowel een professionalisering van de bordspelindustrie als een milde vorm van 'rating-inflatie' binnen de community. Het resultaat is te zien in 'Overzicht BGG ratings in 1989 - 2018'.
 
 ## 🛠️ Gebruikte Technieken & Libraries
 In dit project zijn de fundamentele technieken van data-analyse in Python toegepast:
